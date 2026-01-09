@@ -6,7 +6,8 @@
         "clean": "ccweb-add-on-scripts clean",
         "build": "ccweb-add-on-scripts build --use webpack",
         "start": "ccweb-add-on-scripts start --use webpack",
-        "package": "ccweb-add-on-scripts package --use webpack"
+        "package": "ccweb-add-on-scripts package --use webpack",
+        "dev": "vite"
     },
     "keywords": [
         "Adobe",
@@ -17,8 +18,12 @@
     "dependencies": {
         "@swc-react/button": "1.7.0",
         "@swc-react/theme": "1.7.0",
+        "@vitejs/plugin-react": "^5.1.2",
+        "dotenv": "^17.2.3",
         "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "react-dom": "18.2.0",
+        "vite": "^7.3.1",
+        "vite-tsconfig-paths": "^6.0.3"
     },
     "devDependencies": {
         "@adobe/ccweb-add-on-scripts": "^3.6.0",
